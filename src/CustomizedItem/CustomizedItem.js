@@ -8,8 +8,7 @@ class CustomizedItem extends Component {
         const { name, cost, checked, feature, itemHash, updateFeature, USCurrencyFormat } = this.props;
 
         return (
-
-            <div key={itemHash} className="feature__item">
+            <div className="feature__item">
                 <input
                 type="radio"
                 id={itemHash}
